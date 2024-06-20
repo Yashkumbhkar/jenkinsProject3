@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 18-Jun-2024, 4:25:48 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="in.co.rays.project_3.dto.InventoryDTO" table="INVENTORYDTO">
+    
+       <id name="id" type="java.lang.Long">
+            <column name="ID" />
+            <generator class="increment" />
+        </id>
+    
+        <property name="supplierName" type="java.lang.String">
+            <column name="SUPPLIERNAME" />
+        </property>
+        <property name="lastUpatedDate" type="java.util.Date">
+            <column name="LASTUPATEDDATE" />
+        </property>
+        <property name="quantity" type="java.lang.Integer">
+            <column name="QUANTITY" />
+        </property>
+        <property name="product" type="java.lang.String">
+            <column name="PRODUCT" />
+        </property>
+    </class>
+</hibernate-mapping>

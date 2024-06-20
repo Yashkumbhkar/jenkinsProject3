@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 30-Apr-2024, 5:50:38 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="in.co.rays.project_3.dto.LessionDTO" table="LESSIONDTO">
+        <id name="id" type="java.lang.Long">
+            <column name="ID" />
+            <generator class="increment" />
+        </id>
+        
+        <property name="name" type="java.lang.String">
+         <column name="NAME" />
+        </property>
+        
+        <property name="authorName" type="java.lang.String">
+            <column name="AUTHORNAME" />
+        </property>
+    </class>
+</hibernate-mapping>

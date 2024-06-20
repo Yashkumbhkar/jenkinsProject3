@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 21-May-2024, 1:34:33 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="in.co.rays.project_3.dto.DesceaseDTO" table="DESCEASEDTO">
+    
+    <id name="id" type="java.lang.Long">
+            <column name="ID" />
+            <generator class="increment" />
+        </id>
+    
+        <property name="desCeaseDTO" type="java.lang.String">
+            <column name="DESCEASEDTO" />
+        </property>
+    </class>
+</hibernate-mapping>
